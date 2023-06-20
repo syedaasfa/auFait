@@ -255,6 +255,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tvTotal"
+           android:textColor="@color/black"
             android:text="Place your order"
             android:textSize="16sp"
             android:textStyle="bold"
