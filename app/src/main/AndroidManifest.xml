@@ -12,6 +12,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AuFait"
         tools:targetApi="31">
+        <activity android:name=".LoginActivity"
+            android:exported="false"/>
+        <activity android:name=".SignUpActivity"
+            android:exported="false"/>
+        <activity android:name=".SplashActivity"
+            android:exported="false"/>
+        <activity android:name=".RestaurantMenuActivity"
+            android:exported="false"/>
+        <activity android:name=".PlaceYourOrderActivity"
+            android:exported="false"/>
+        <activity android:name=".OrderSucceessActivity"
+            android:exported="false"/>
         <activity
             android:name=".MainActivity"
             android:exported="true">

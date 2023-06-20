@@ -35,10 +35,7 @@ public class RestaurantMenuActivity extends AppCompatActivity implements MenuLis
         setContentView(R.layout.activity_restaurant_menu);
 
         RestaurantModel restaurantModel = getIntent().getParcelableExtra("RestaurantModel");
-        ActionBar actionBar = getSupportActionBar();
-        actionBar.setTitle(restaurantModel.getName());
-        actionBar.setSubtitle(restaurantModel.getAddress());
-        actionBar.setDisplayHomeAsUpEnabled(true);
+
 
 
         menuList = restaurantModel.getMenus();

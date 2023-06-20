@@ -1,11 +1,11 @@
 package com.example.aufait;
 
-import androidx.appcompat.app.ActionBar;
+import android.content.Intent;
+import android.os.Bundle;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-import android.content.Intent;
-import android.os.Bundle;
 
 import com.example.aufait.adapters.RestaurantListAdapter;
 import com.example.aufait.model.RestaurantModel;
@@ -19,6 +19,7 @@ import java.io.StringWriter;
 import java.io.Writer;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Objects;
 
 public class MainActivity extends AppCompatActivity implements RestaurantListAdapter.RestaurantListClickListener {
 
@@ -27,8 +28,6 @@ public class MainActivity extends AppCompatActivity implements RestaurantListAda
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        ActionBar actionBar = getSupportActionBar();
-        actionBar.setTitle("Restaurant List");
 
         List<RestaurantModel> restaurantModelList =  getRestaurantData();
 
