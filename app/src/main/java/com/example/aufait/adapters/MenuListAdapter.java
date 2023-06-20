@@ -1,5 +1,6 @@
 package com.example.aufait.adapters;
 
+import android.annotation.SuppressLint;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -20,17 +21,12 @@ import java.util.List;
 
 public class MenuListAdapter extends RecyclerView.Adapter<MenuListAdapter.MyViewHolder> {
 
-    private List<Menu> menuList;
-    private MenuListClickListener clickListener;
+    private final List<Menu> menuList;
+    private final MenuListClickListener clickListener;
 
     public MenuListAdapter(List<Menu> menuList, MenuListClickListener clickListener) {
         this.menuList = menuList;
         this.clickListener = clickListener;
-    }
-
-    public void updateData(List<Menu> menuList) {
-        this.menuList = menuList;
-        notifyDataSetChanged();
     }
 
     @NonNull
@@ -40,51 +36,43 @@ public class MenuListAdapter extends RecyclerView.Adapter<MenuListAdapter.MyView
         return  new MyViewHolder(view);
     }
 
+    @SuppressLint("SetTextI18n")
     @Override
-    public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull MyViewHolder holder, @SuppressLint("RecyclerView") int position) {
         holder.menuName.setText(menuList.get(position).getName());
         holder.menuPrice.setText("Price: $"+menuList.get(position).getPrice());
-        holder.addToCartButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Menu menu  = menuList.get(position);
-                menu.setTotalInCart(1);
-                clickListener.onAddToCartClick(menu);
-                holder.addMoreLayout.setVisibility(View.VISIBLE);
-                holder.addToCartButton.setVisibility(View.GONE);
-                holder.tvCount.setText(menu.getTotalInCart()+"");
-            }
+        holder.addToCartButton.setOnClickListener(v -> {
+            Menu menu  = menuList.get(position);
+            menu.setTotalInCart(1);
+            clickListener.onAddToCartClick(menu);
+            holder.addMoreLayout.setVisibility(View.VISIBLE);
+            holder.addToCartButton.setVisibility(View.GONE);
+            holder.tvCount.setText(menu.getTotalInCart()+"");
         });
-        holder.imageMinus.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Menu menu  = menuList.get(position);
-                int total = menu.getTotalInCart();
-                total--;
-                if(total > 0 ) {
-                    menu.setTotalInCart(total);
-                    clickListener.onUpdateCartClick(menu);
-                    holder.tvCount.setText(total +"");
-                } else {
-                    holder.addMoreLayout.setVisibility(View.GONE);
-                    holder.addToCartButton.setVisibility(View.VISIBLE);
-                    menu.setTotalInCart(total);
-                    clickListener.onRemoveFromCartClick(menu);
-                }
+        holder.imageMinus.setOnClickListener(v -> {
+            Menu menu  = menuList.get(position);
+            int total = menu.getTotalInCart();
+            total--;
+            if(total > 0 ) {
+                menu.setTotalInCart(total);
+                clickListener.onUpdateCartClick(menu);
+                holder.tvCount.setText(total +"");
+            } else {
+                holder.addMoreLayout.setVisibility(View.GONE);
+                holder.addToCartButton.setVisibility(View.VISIBLE);
+                menu.setTotalInCart(total);
+                clickListener.onRemoveFromCartClick(menu);
             }
         });
 
-        holder.imageAddOne.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Menu menu  = menuList.get(position);
-                int total = menu.getTotalInCart();
-                total++;
-                if(total <= 10 ) {
-                    menu.setTotalInCart(total);
-                    clickListener.onUpdateCartClick(menu);
-                    holder.tvCount.setText(total +"");
-                }
+        holder.imageAddOne.setOnClickListener(v -> {
+            Menu menu  = menuList.get(position);
+            int total = menu.getTotalInCart();
+            total++;
+            if(total <= 10 ) {
+                menu.setTotalInCart(total);
+                clickListener.onUpdateCartClick(menu);
+                holder.tvCount.setText(total +"");
             }
         });
 
@@ -124,8 +112,8 @@ public class MenuListAdapter extends RecyclerView.Adapter<MenuListAdapter.MyView
     }
 
     public interface MenuListClickListener {
-        public void onAddToCartClick(Menu menu);
-        public void onUpdateCartClick(Menu menu);
-        public void onRemoveFromCartClick(Menu menu);
+        void onAddToCartClick(Menu menu);
+        void onUpdateCartClick(Menu menu);
+        void onRemoveFromCartClick(Menu menu);
     }
 }
