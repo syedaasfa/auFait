@@ -16,9 +16,9 @@
       },
       "menus": [
         {
-          "name": "PLEATED MIDI DRESS",
-          "price": 4990.00,
-          "url": "https://static.zara.net/photos///2023/V/0/1/p/7969/053/630/2/w/750/7969053630_6_1_1.jpg?ts=1677775053551"
+          "name": "HIJAB",
+          "price": 390.00,
+          "url": "https://i.pinimg.com/564x/65/95/27/659527aaa8ffe5ba1409ab0ebc6a62a6.jpg"
         },
         {
           "name": "BOMBER JACKET",
@@ -26,44 +26,44 @@
           "url": "https://scontent.fblr4-2.fna.fbcdn.net/v/t39.30808-6/355152655_1864170007311181_1540265015017038551_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=730e14&_nc_ohc=2Yi6u4-3YusAX_M-f_W&_nc_ht=scontent.fblr4-2.fna&oh=00_AfBeRtwW-am9WbgAa8FWWwVbGGXM0eiMgzhvi2U36ByIOg&oe=6494C26C"
         },
         {
-          "name": "",
-          "price": 4.99,
-          "url": "https://149366112.v2.pressablecdn.com/wp-content/uploads/2017/08/blah.jpg"
+          "name": "SATIN BLOUSE",
+          "price": 4990,
+          "url": "https://i.pinimg.com/564x/5e/dd/9e/5edd9e5927d38d4f618c41e5352d548b.jpg"
         },
         {
-          "name": "Cheese Sticks",
-          "price": 5.49,
-          "url": "https://www.spendwithpennies.com/wp-content/uploads/2013/10/Cheese-Sticks-SpendWithPennies-2-21-500x500.jpg"
+          "name": "BLACK CROP TOP",
+          "price": 549,
+          "url": "https://i.pinimg.com/736x/b8/67/e5/b867e5cec535b770b8a642242a8e15cb.jpg"
         },
         {
-          "name": "CHICKEN FINGER SANDWICH",
-          "price": 4.00,
-          "url": "https://api.thelevelup.com/v15/order_ahead/menu_image_stores/70461/image?density=3&height=300&width=420"
+          "name": "FLARE JEANS",
+          "price": 400,
+          "url": "https://i.pinimg.com/564x/c9/6e/f9/c96ef9c413a77eccf10429eb74453868.jpg"
         },
         {
-          "name": "FINGERZ BOXED LUNCH",
+          "name": "BLACK WIDE LEG JEANS",
           "price": 3.25,
-          "url": "https://api.thelevelup.com/v15/order_ahead/menu_image_stores/70463/image?density=3&height=300&width=420"
+          "url": "https://i.pinimg.com/564x/e7/9a/12/e79a1282d5e74dbed5bb43eb52bdf7d1.jpg"
         },
         {
-          "name": "HOUSE ZALAD BOXED",
-          "price": 5.49,
-          "url": "https://api.thelevelup.com/v15/order_ahead/menu_image_stores/70465/image?density=3&height=300&width=420"
+          "name": "PLEATED SKORT",
+          "price": 549,
+          "url": "https://i.pinimg.com/564x/a6/36/7a/a6367a51d3be06e6dc166131882bc21a.jpg"
         },
         {
-          "name": "COBB ZALAD BOXED",
-          "price": 3.99,
-          "url": "https://api.thelevelup.com/v15/order_ahead/menu_image_stores/70468/image?density=3&height=300&width=420"
+          "name": "BLACK SKIRT",
+          "price": 399,
+          "url": "https://i.pinimg.com/564x/37/2f/fb/372ffb23be6017dd4631f77a387e17f1.jpg"
         },
         {
-          "name": "COOKIE AND BROWNIE ",
+          "name": "DENIM OVERALLS",
           "price": 8.09,
-          "url": "https://api.thelevelup.com/v15/order_ahead/menu_image_stores/70543/image?density=3&height=300&width=420"
+          "url": "https://i.pinimg.com/564x/ac/a9/4c/aca94cbd879f0e9a455cc86aae7762b7.jpg"
         },
         {
-          "name": "BROWNIE PLATTER",
-          "price": 6.49,
-          "url": "https://api.thelevelup.com/v15/order_ahead/menu_image_stores/70540/image?density=3&height=300&width=420"
+          "name": "PLEATED MIDI DRESS",
+          "price": 4949,
+          "url": "https://static.zara.net/photos///2023/V/0/1/p/7969/053/630/2/w/750/7969053630_6_1_1.jpg?ts=1677775053551"
         }
       ]
     },
