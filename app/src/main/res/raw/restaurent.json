@@ -141,10 +141,10 @@
       ]
     },
   {
-    "name":"McDonald's",
+    "name":"TOO FACED",
     "address":"10975 State Bridge Rd.",
     "delivery_charge": 5,
-    "image":"https://www.mcdonalds.com/content/dam/usa/nfl/assets/nav/arches-logo_108x108.jpg",
+    "image":"https://www.sheerid.com/shoppers/wp-content/uploads/sites/4/2022/07/microsoftteams-image-30-too-faced.png",
     "hours":{
       "Sunday":"11:00 AM - 7:00 PM",
       "Monday":"10:00 AM - 10:00 PM",
@@ -156,34 +156,34 @@
     },
     "menus": [
       {
-        "name": "Chocolate Shake",
+        "name": "Cleanser",
         "price": 4.95,
-        "url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Chocolate-McCafe-Shake-Medium.jpg?$Product_Desktop$"
+        "url": "https://i.pinimg.com/564x/ae/24/e4/ae24e4163fece27fbc90b3bd22dab085.jpg"
       },
       {
-        "name": "Strawberry Shake",
+        "name": "Toner",
         "price": 3.59,
-        "url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Strawberry-McCafe-Shake-Medium.jpg?$Product_Desktop$"
+        "url": "https://i.pinimg.com/564x/ca/8c/30/ca8c302856df112fb0bcb603c5222b14.jpg"
       },
       {
-        "name": "Filet-O-Fish",
+        "name": "Moisturizer",
         "price": 5.49,
-        "url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Filet-O-Fish.png?$Product_Desktop$"
+        "url": "https://i.pinimg.com/564x/eb/ed/00/ebed00a9a16879b8ee16d50a733e5125.jpg"
       },
       {
-        "name": "McNuggets",
+        "name": "Sunscreen",
         "price": 3.99,
-        "url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Chicken-McNuggets-4pc.jpg?$Product_Desktop$"
+        "url": "https://i.pinimg.com/564x/b5/07/29/b507296e0bc0be2ae41ff192e6a6fbc2.jpg"
       },
       {
-        "name": "Combo Meal",
+        "name": "Face Masks",
         "price": 8.29,
-        "url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/assets/meal/desktop/h-mcdonalds-Big-Mac-Extra-Value-Meals.jpg?$Product_Desktop$"
+        "url": "https://www.shopandshop.com/wp-content/uploads/2018/07/s-l500-1344.jpg"
       },
       {
-        "name": "McMuffin Meal",
+        "name": "Hangover Pillow Lip Balm",
         "price": 6.99,
-        "url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/assets/meal/desktop/h-mcdonalds-Egg-McMuffin-Extra-Value-Meals.jpg?$Product_Desktop$"
+        "url": "https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/products/pictures/item/free/original/1070163/N2jYKx-osj-3E65030000_1.jpg?dpr=1"
       }
     ]
   },
