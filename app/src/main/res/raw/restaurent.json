@@ -68,10 +68,10 @@
       ]
     },
     {
-      "name":"Slim's Hotdogs",
+      "name":"JIMMY CHOO",
       "address":"469 W Huron St.",
       "delivery_charge": 4,
-      "image":"https://i.ebayimg.com/images/g/LCUAAOSwgYlcvCtg/s-l1600.jpg",
+      "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXmSZEBzxN_MirWrJiM1_YVR0mbzuagOHwzQ",
 
       "hours":{
         "Sunday":"11:00 AM - 7:00 PM",
@@ -84,59 +84,59 @@
       },
       "menus": [
         {
-          "name": "Hot Dog",
-          "price": 2.99,
-          "url": "https://awrestaurants.com/sites/default/files/hotdog_0.png"
+          "name": "Platform Boots",
+          "price": 5230,
+          "url": "https://www.ragsnrituals.com/cdn/shop/products/product-image-1120307112_2400x.jpg?v=1571609078"
         },
         {
-          "name": "Cheese Dog",
-          "price": 3.59,
-          "url": "https://www.cookingpanda.com/wp-content/uploads/2020/07/7R26235-16x9-1-scaled.jpg"
+          "name": "WMNS Air Jordan 1 Retro High",
+          "price": 11000,
+          "url": "https://3.bp.blogspot.com/-mFwVac2LXGY/XMTpaeTqQ5I/AAAAAAABCnA/yDmDBWUeZNosCXC-XqypR_hT9MPTi-jDQCLcBGAs/s1600/A.jpg"
         },
         {
-          "name": "Midway Monster",
-          "price": 5.44,
-          "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF2KzBUdwZjGoJIWIqHGHDozwcr3_oGrkhYQ&usqp=CAU"
+          "name": "Sky High Heels",
+          "price": 5440,
+          "url": "https://i.pinimg.com/originals/36/36/b9/3636b97d17d78e33282b73db246c58fe.jpg"
         },
         {
-          "name": "Fries",
-          "price": 2.00,
-          "url": "https://images.fineartamerica.com/images-medium-large-5/crinkle-cut-french-fries-full-frame-foodcollection.jpg"
+          "name": " Blue Patent Leather Pointed Pumps",
+          "price": 7520,
+          "url": "https://media.jimmychoo.com/image/upload/w_952,c_scale,q_auto:best,f_auto,dpr_2.0,h_952/ROWPROD_CONTENT/2023/landing-page/women/wk05/gbrow/gb-wlp-box2.jpg"
         },
         {
-          "name": "Milkshake",
-          "price": 3.49,
-          "url": "https://files.heftycdn.com/wp-content/uploads/2020/06/7c19980b4ec07e741b2823ea45370467.png"
+          "name": "Biscuit Leather Mules",
+          "price": 3490,
+          "url": "https://media.jimmychoo.com/image/upload/f_auto,q_auto:best,dpr_2.0,w_520,h_520,c_fit/ROWPROD_PRODUCT/images/original/AVENUE85NAP_120263_DETAIL.jpg"
         },
         {
-          "name": "Chocolate Shake",
-          "price": 4.95,
-          "url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Chocolate-McCafe-Shake-Medium.jpg?$Product_Desktop$"
+          "name": "Blue Leather Wedges",
+          "price": 4950,
+          "url": "https://media.jimmychoo.com/image/upload/f_auto,q_auto:best,dpr_2.0,w_520,h_520,c_fit/ROWPROD_PRODUCT/images/original/CLAREWEDGE130NAP_042459_DETAIL_vg64.jpg"
         },
         {
-          "name": "Strawberry Shake",
-          "price": 3.59,
-          "url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Strawberry-McCafe-Shake-Medium.jpg?$Product_Desktop$"
+          "name": "Pink Suede Pumps",
+          "price": 3590,
+          "url": "https://i.pinimg.com/564x/9b/a9/9d/9ba99d4bed780d928d69678c348518fc.jpg"
         },
         {
-          "name": "Filet-O-Fish",
-          "price": 5.49,
-          "url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Filet-O-Fish.png?$Product_Desktop$"
+          "name": "Mary Janes",
+          "price": 5409,
+          "url": "https://i.pinimg.com/564x/dc/86/f3/dc86f34bf4bff01d76a94bb10b6c6110.jpg"
         },
         {
-          "name": "McNuggets",
-          "price": 3.99,
-          "url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Chicken-McNuggets-4pc.jpg?$Product_Desktop$"
+          "name": "Converse",
+          "price": 3990,
+          "url": "https://i.pinimg.com/564x/cd/0e/fb/cd0efbe259385263d30bc0e218477050.jpg"
         },
         {
-          "name": "Combo Meal",
-          "price": 8.29,
-          "url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/assets/meal/desktop/h-mcdonalds-Big-Mac-Extra-Value-Meals.jpg?$Product_Desktop$"
+          "name": "Crocs",
+          "price": 1829,
+          "url": "https://i.pinimg.com/564x/e8/e9/c3/e8e9c37525a11ab57fc559d5d1112d98.jpg"
         },
         {
-          "name": "McMuffin Meal",
-          "price": 6.99,
-          "url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/assets/meal/desktop/h-mcdonalds-Egg-McMuffin-Extra-Value-Meals.jpg?$Product_Desktop$"
+          "name": "Black Leather Flats",
+          "price": 6990,
+          "url": "Blue Nappa Leather Wedge"
         }
       ]
     },
